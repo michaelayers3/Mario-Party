@@ -1,0 +1,84 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f394e3;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #000000;
+      margin-top: 40px;
+    }
+
+    .container {
+      text-align: center;
+      margin: 60px auto;
+    }
+
+    .input-section {
+      margin-bottom: 20px;
+    }
+
+    .input-section input[type="text"] {
+      padding: 10px;
+      width: 200px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .input-section input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #729c44;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 400px;
+    }
+
+    th,
+    td {
+      padding: 8px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #729c44;
+      color: #ffffff;
+    }
+
+    .comment-section {
+      margin-top: 40px;
+    }
+    
+    .comment-section textarea {
+      width: 400px;
+      height: 100px;
+      padding: 10px;
+      border: 1px solid #729c44;
+      border-radius: 5px;
+      resize: vertical;
+      font-size: 16px;
+    }
+    
+    .comment-section input[type="submit"] {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #729c44;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }

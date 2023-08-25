@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mario Party Win Counter</title>
+</head>
+<body>
+  <h1>Mario Party Win Counter</h1>
+  <div class="container">
+    <div class="input-section">
+      <input type="text" id="name-input" placeholder="Enter Name">
+      <input type="submit" value="Add Counter" onclick="addCounter()">
+    </div>
+    <table id="counter-table">
+      <tr>
+        <th>Name</th>
+        <th>Wins</th>
+        <th>Loss</th>
+      </tr>
+    </table>
+    <div class="comment-section">
+      <textarea id="comment-input" placeholder="Enter comment"></textarea>
+      <br>
+      <input type="submit" value="Submit Comment" onclick="submitComment()">
+    </div>
+    <div class="comments">
+        <div>
+            <h3>Comments</h3>
+            <ul id="comment-list">
+            </ul>
+        </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
